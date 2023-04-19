@@ -1,0 +1,12 @@
+.id{
+    background-color: aqua;
+    height: 100px;
+    width: 500px;
+    background-image:url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg);
+    width: 1000px;
+    height: 1000px;
+    color: aqua;
+    
+    background-position:center center;
+    overflow: auto;
+}

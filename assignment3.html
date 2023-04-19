@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table {
+            text-align: center;
+            width: 500px;
+            height: 200px;
+        }
+
+        #td1,
+        #th1 {
+            border: 1px solid blue;
+        }
+
+        #table2 {
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        #th,
+        #td2 {
+            border: 2px soild black;
+        }
+
+        #table3 {
+            text-align: center;
+        }
+
+        #th3,
+        td3 {
+            border: 2px soild red;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table id="table1"></table>
+        <tr>
+            <th id="th1">s.no</th>
+            <th id="th1">name</th>
+            <th id="th1">corses</th>
+        </tr>
+        <tr>
+            <td id="td1">1</td>
+            <td id="td1">sumanth</td>
+            <td id="td1">full stack</td>
+        </tr>
+        <tr>
+            <td id="td1">2</td>
+            <td id="td1">naresh</td>
+            <td id="td1">full stack</td>
+        </tr>
+        </table>
+        <br>
+        <caption>question no 2</caption>
+        <table id="table2">
+            <tr>
+                <th id="th2" style="padding: 30px;">s.no</th>
+                <th id="th2" style="padding: 30px;">name</th>
+                <th id="th2" style="padding: 30px;">moblie no</th>
+            </tr>
+            <tr>
+                <td id="td2">1</td>
+                <td id="td2">sumanth</td>
+                <td id="td2">123456789</td>
+            </tr>
+        </table>
+        <br>
+        <table id="table3" cellpadding="50" cellspacing="50">
+            <tr>
+                <th id="th3" colspan="1">s.no</th>
+                <th id="th3">name</th>
+                <th id="th3">email</th>
+            </tr>
+            <tr>
+                <td id="td3" rowspan="1">1</td>
+                <td id="td3">sumanth</td>
+                <td id="td3">sumanth@gmail.com</td>
+            </tr>
+            <tr>
+                <td id="td3">2</td>
+                <td id="td3">naresh</td>
+                <td id="td3">naresh@gmail.com</td>
+            </tr>
+        </table>
+
+        <h3>this is unordered list</h3>
+        <ul>
+            <li>name</li>
+            <li>moblie no</li>
+            <li>address</li>
+        </ul>
+        <h3>this is ordered list</h3>
+        <ol>
+            <li>name</li>
+            <li>moblie no</li>
+            <li>address</li>
+        </ol>
+
+        <h3>this is definition</h3>
+        <dl>
+            <dt>full stack</dt>
+            <dd>full stack courses has frontend and backend</dd>
+        </dl>
+
+        <h3>this is nested list</h3>
+        <ul>
+            <li>names</li>
+            <ol>
+                <li>sumanth</li>
+                <li>naresh</li>
+                <li>suresh</li>
+            </ol>
+        </ul>
+        <ul>
+            <li>rank</li>
+            <ol>
+                <li>2</li>
+                <li>1</li>
+                <li>4</li>
+            </ol>
+        </ul>
+    
+    <h3>this is iframe</h3>
+    <iframe src="./heading.html" frameborder="5" width="800" height="500"></iframe>
+
+    <h3>this is iframe without border</h3>
+    <iframe src="./list.html" frameborder="0" width="700" height="500"></iframe>
+    <br>
+    <h3>opening linked web pages inside an iframe</h3>
+    <iframe src="./assignment.html" frameborder="0" width="700px" height="350"></iframe>
+    <br><br>
+    <h3>opening linked web pages inside an iframe</h3>
+
+    <iframe src="https://www.google.com/search?q=get+into+pc&oq=&aqs=chrome.2.69i57j69i59l2j69i60l3.4727j0j1&sourceid=chrome&ie=UTF-8" width="800px" height="450px" name="name">
+        <a href="./assignment.html" target="name">link></a>
+        
+    </center>
+</body>
+
+</html>
